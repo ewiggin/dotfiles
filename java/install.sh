@@ -3,4 +3,4 @@
 set -euo pipefail
 
 
-cp $DOTFILES_PATH/java/m2 ~/.m2
+cp -R $DOTFILES_PATH/java/m2 ~/.m2

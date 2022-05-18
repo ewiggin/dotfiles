@@ -4,4 +4,4 @@
 brew bundle --file=$DOTFILES_PATH/mac/brew/Brewfile
 
 # Create symlink to use docker command
-open /Application/Docker.app
+open /Applications/Docker.app

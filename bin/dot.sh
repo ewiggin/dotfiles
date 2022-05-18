@@ -14,4 +14,4 @@ source "$DOTFILES_PATH/mac/configure-mac.sh"
 mv $DOTFILES_PATH/configs ~/.config
 
 # Move environment configuration to ~
-mv $DOTFILES_PATH/terminal/* ~
+cp -R $DOTFILES_PATH/terminal/ ~

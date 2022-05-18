@@ -19,4 +19,4 @@ git --version
 
 git clone --depth 1 https://github.com/ewiggin/dotfiles.git "$DOTFILES_PATH"
 
-"$DOTFILES_PATH/bin/dot" self install
+"$DOTFILES_PATH/bin/dot.sh" self install

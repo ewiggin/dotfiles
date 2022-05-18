@@ -15,3 +15,6 @@ mv $DOTFILES_PATH/configs ~/.config
 
 # Move environment configuration to ~
 cp -R $DOTFILES_PATH/terminal/ ~
+
+# install oh my zsh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"

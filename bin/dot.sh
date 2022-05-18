@@ -11,7 +11,7 @@ source "$DOTFILES_PATH/docker/install.sh"
 source "$DOTFILES_PATH/mac/configure-mac.sh"
 
 # Move configurations to ~/.config
-mv $DOTFILES_PATH/configs ~/.config
+cp -Rf $DOTFILES_PATH/configs/ ~/.config
 
 # Move environment configuration to ~
 cp -R $DOTFILES_PATH/mac/terminal/ ~

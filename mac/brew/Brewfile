@@ -9,7 +9,7 @@ tap "mongodb/brew"
 tap "homebrew/cask-fonts"
 brew "freetype"
 brew "curl"
-brew "docker", link: false
+brew "docker"
 brew "deno"
 brew "fzf"
 brew "openjdk"
